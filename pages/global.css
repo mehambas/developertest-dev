@@ -1,0 +1,69 @@
+/* Hits */
+
+.ais-Hits-list {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 680px) {
+    .ais-Hits-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .ais-Hits-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ais-Hits-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .h1 {
+        font-size: 0.8rem !important;
+    }
+}
+
+*,
+.row,
+.col {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.ais-Hits-item h1 {
+    font-size: 0.8rem !important;
+}
+
+.aside .ais-Hits-item {
+    padding: 5px 12px;
+}
+
+.ais-RefinementList-label {
+    font-size: 0.6rem !important;
+}
+
+.aside .ais-Hits-list {
+    width: 100% !important;
+    grid-gap: 0px;
+    flex-direction: column;
+    display: flex;
+}
+
+/* .hit-image-container {
+    width: 120px;
+    height: 200px;
+} */
+
+.hit-image-container img {
+    width: 100px;
+    height: 150px;
+}
